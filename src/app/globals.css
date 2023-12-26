@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+
+
+.pizza-background{
+  width: 26rem;
+  height: 48rem;
+ 
+}
+
+.love{
+  color:red
+}
+
+.topImage {
+  top: 11rem;
+}
+
+.text-font{
+  font-size: 2.44rem;
+}
+
+.margin-top{
+  margin-top : 14rem;
+}
+
+.topp{
+  margin-top:50rem;
+  margin-right: -10;
+}
+
+.mtop{
+  margin-top: -6rem;
+}
+
+.pizza2-position{
+  top: 25rem;
+}
+
+.pizza2-position{
+  top: 41rem;
+  right: 14rem;
+}
+
+.onionTop{
+  top: 42rem;
+  right : 41rem;
+}
+
+.weight{
+  line-height: 1.2;
+  justify-content: center;
+}
+
+.pageMargin{
+  padding-top: 10%;
+}
+
+.pizzaFresh{
+  margin-top: 8rem;
+}
+
+.loremWidth{
+  width: 70%;
+}
+
+.cartButton{
+  padding: 10px 50px;
+}
+
+.inputty{
+  width: 40px
+}
+
+.noZindex{
+  z-index: -9999;
+}
+
+@media screen and (min-width:440px) and (max-width: 767px) {
+  .fixCart{
+    right: 6rem;
+  }
+
+  .fixMenu{
+    left: 25rem;
+  }
+}
+
